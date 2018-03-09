@@ -9,9 +9,9 @@ int main(void) {
 	tmin2=min2+d;
 	sub=tmin1-tmin2;
 	result=sub/60;
-	printf("%d\t",result);
-	result1=sub%60;
-	if(result1==0)
+	printf("%d",result);
+	result1 = sub%60;
+	if(result1 == 0)
 	{
 	printf("0");
 	}
